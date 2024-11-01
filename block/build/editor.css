@@ -1,0 +1,23 @@
+.wp-radio-panel-body .components-panel__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wp-radio-panel-body .components-panel__row .label {
+    font-weight: 600;
+}
+
+.wp-radio-panel-body .components-panel__row .description {
+    font-size: 12px;
+    font-style: normal;
+    color: rgb(117, 117, 117);
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+.wp-radio-panel-body  button {
+    margin-bottom: 15px;
+}

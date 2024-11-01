@@ -1,0 +1,989 @@
+# Copyright (C) 2022 WP Military
+# This file is distributed under the same license as the WP Radio plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Radio 3.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-radio\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-05-27T11:48:39+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: wp-radio\n"
+
+#. Plugin Name of the plugin
+#: block/class-block.php:21
+#: includes/elementor/class-elementor.php:16
+msgid "WP Radio"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpmilitary.com/wp-radio"
+msgstr ""
+
+#. Description of the plugin
+msgid "Worldwide online radio stations directory for WordPress."
+msgstr ""
+
+#. Author of the plugin
+msgid "WP Military"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpmilitary.com/"
+msgstr ""
+
+#: includes/admin/class-admin-ajax.php:193
+#: includes/admin/views/metabox-location.php:63
+#: includes/admin/views/metabox-location.php:74
+msgid "Select state"
+msgstr ""
+
+#: includes/admin/class-admin-ajax.php:217
+#: includes/admin/views/metabox-location.php:95
+msgid "Select city"
+msgstr ""
+
+#: includes/admin/class-admin.php:51
+msgid "ID"
+msgstr ""
+
+#: includes/admin/class-admin.php:52
+msgid "Title"
+msgstr ""
+
+#: includes/admin/class-admin.php:53
+#: includes/class-cpt.php:68
+msgid "Country"
+msgstr ""
+
+#: includes/admin/class-admin.php:54
+#: includes/class-cpt.php:77
+msgid "Genre"
+msgstr ""
+
+#: includes/admin/class-admin.php:55
+#: templates/statistics-email-report.php:42
+msgid "Date"
+msgstr ""
+
+#: includes/admin/class-admin.php:95
+msgid "All Countries"
+msgstr ""
+
+#: includes/admin/class-admin.php:149
+msgid "Getting Started with WP Radio"
+msgstr ""
+
+#: includes/admin/class-admin.php:149
+msgid "Getting Started"
+msgstr ""
+
+#: includes/admin/class-admin.php:154
+msgid "Import Radio Stations"
+msgstr ""
+
+#: includes/admin/class-admin.php:154
+msgid "Import Stations"
+msgstr ""
+
+#: includes/admin/class-admin.php:188
+msgid "Radio Archive"
+msgstr ""
+
+#: includes/admin/class-chart-widget.php:22
+msgid "WP Radio Stats - Stations play count per day"
+msgstr ""
+
+#: includes/admin/class-importer__premium_only.php:45
+msgid "Site has no valid license."
+msgstr ""
+
+#: includes/admin/class-importer__premium_only.php:65
+msgid "Server is not reachable."
+msgstr ""
+
+#: includes/admin/class-metabox.php:86
+msgid "Station Information"
+msgstr ""
+
+#: includes/admin/class-metabox.php:92
+msgid "Station Location"
+msgstr ""
+
+#: includes/admin/class-settings.php:15
+msgid "WP Radio Settings"
+msgstr ""
+
+#: includes/admin/class-settings.php:15
+#: block/build/index.js:717
+#: block/build/index.js:1812
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:26
+msgid "You didn't add any country yet.<br>To select a country for the station, you need add a country first."
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:28
+msgid "Add Country"
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:37
+#: templates/listing/locations.php:14
+msgid "Country:"
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:39
+#: templates/listing/search.php:49
+msgid "Select country"
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:40
+msgid "Select Country"
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:61
+msgid "State:"
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:93
+msgid "City: "
+msgstr ""
+
+#: includes/admin/views/metabox-location.php:113
+msgid "No Cities Found"
+msgstr ""
+
+#: includes/admin/views/metabox.php:21
+msgid "General"
+msgstr ""
+
+#: includes/admin/views/metabox.php:25
+msgid "Socials"
+msgstr ""
+
+#: includes/admin/views/metabox.php:29
+#: includes/admin/views/metabox.php:234
+#: templates/single.php:131
+msgid "Contacts"
+msgstr ""
+
+#: includes/admin/views/metabox.php:60
+msgid "General Information"
+msgstr ""
+
+#: includes/admin/views/metabox.php:70
+msgid "Stream URL"
+msgstr ""
+
+#: includes/admin/views/metabox.php:76
+msgid "Enter the live shoutcast, icecast or mp3 stream URL."
+msgstr ""
+
+#: includes/admin/views/metabox.php:79
+msgid "For example:"
+msgstr ""
+
+#: includes/admin/views/metabox.php:88
+msgid "Slogan"
+msgstr ""
+
+#: includes/admin/views/metabox.php:94
+msgid "Enter the station slogan."
+msgstr ""
+
+#: includes/admin/views/metabox.php:102
+msgid "Station Logo"
+msgstr ""
+
+#: includes/admin/views/metabox.php:108
+msgid "Enter the image url or select an image by clicking the plus icon."
+msgstr ""
+
+#: includes/admin/views/metabox.php:120
+msgid "Enter the live stream URL of the radio station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:128
+msgid "Featured Station"
+msgstr ""
+
+#: includes/admin/views/metabox.php:148
+msgid "Turn ON, to featured this station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:150
+msgid "List the featured stations by using <code>[wp_radio_featured]</code> shortcode."
+msgstr ""
+
+#: includes/admin/views/metabox.php:166
+msgid "Social Links"
+msgstr ""
+
+#: includes/admin/views/metabox.php:176
+msgid "Station Website"
+msgstr ""
+
+#: includes/admin/views/metabox.php:181
+msgid "Enter the website url of the station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:188
+msgid "Facebook Page"
+msgstr ""
+
+#: includes/admin/views/metabox.php:193
+msgid "Enter the facebook page url of the station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:200
+msgid "Twitter Link"
+msgstr ""
+
+#: includes/admin/views/metabox.php:205
+msgid "Enter the twitter url of the station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:213
+msgid "Wikipedia Link"
+msgstr ""
+
+#: includes/admin/views/metabox.php:218
+msgid "Enter the wikipedia url of the station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:242
+msgid " Address"
+msgstr ""
+
+#: includes/admin/views/metabox.php:249
+msgid "Enter the contact address of the station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:256
+msgid " Email"
+msgstr ""
+
+#: includes/admin/views/metabox.php:262
+msgid "Enter the Contact address of the Radio station."
+msgstr ""
+
+#: includes/admin/views/metabox.php:270
+msgid " Phone Number"
+msgstr ""
+
+#: includes/admin/views/metabox.php:276
+msgid "Enter the contact phone number of the station."
+msgstr ""
+
+#: includes/admin/views/notice/ads-player-update.php:3
+#: includes/admin/views/notice/ads-player.php:3
+msgid "WP Radio Ads Player Addon"
+msgstr ""
+
+#: includes/admin/views/notice/ads-player.php:5
+msgid "Hi there, WP Radio Ads Player"
+msgstr ""
+
+#: includes/admin/views/notice/ads-player.php:6
+msgid ""
+"is available now to monetize your website by playing custom advertisements and banner ads.\n"
+"        <br> It let you play custom mic drops, stringer, and audio advertisements at the start of radio station play."
+msgstr ""
+
+#: includes/admin/views/notice/ads-player.php:14
+#: includes/admin/views/notice/proxy-player.php:15
+msgid "Get Now"
+msgstr ""
+
+#: includes/admin/views/notice/ads-player.php:15
+#: includes/admin/views/notice/proxy-player.php:16
+msgid "Never show this"
+msgstr ""
+
+#: includes/admin/views/notice/proxy-player-update.php:2
+#: includes/admin/views/notice/proxy-player.php:3
+msgid "WP Radio Proxy Player Addon"
+msgstr ""
+
+#: includes/admin/views/notice/proxy-player.php:5
+msgid "Hi there, do you know that most of the radio stations are HTTP (Unsecured) that couldn't be played on HTTPS (Secured) website because of browser mixed-content restrictions."
+msgstr ""
+
+#: includes/admin/views/notice/proxy-player.php:6
+msgid "WP Radio Proxy Player"
+msgstr ""
+
+#: includes/admin/views/notice/proxy-player.php:6
+msgid "addon is now available for playing the HTTP radio stream links on HTTPS website."
+msgstr ""
+
+#: includes/admin/views/notice/proxy-player.php:9
+msgid "WP Radio Proxy Player also fixes the station metadata (song title) not showing issue."
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:4
+msgid ""
+"Hi there, it seems like <strong>WP Radio</strong> is bringing you some value, and that is pretty awesome! Can you please show us some love and rate WP Radio on WordPress?\n"
+"        <br> It will take two minutes of your time, and will really help us spread the world."
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:10
+msgid "I'd love to help :)"
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:12
+msgid "Not this time"
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:13
+msgid "I've already rated you"
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:18
+msgid "Would you like us to remind you about this later?"
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:21
+msgid "Remind me in 3 days"
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:22
+msgid "Remind me in 10 days"
+msgstr ""
+
+#: includes/admin/views/notice/rating.php:23
+msgid "Don't remind me about this"
+msgstr ""
+
+#: includes/admin/views/notice/user-frontend-update.php:3
+msgid "WP Radio User Frontend Addon"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:98
+msgid "A simple, easy to use, user friendly and fully customizable web radio player for WordPress. You can play any live mp3, iceCast and Shoutcast stream in your WordPress website using shortcode, gutenberg block, elementor widget, sidebar widget, full-width sticky and popup player."
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:116
+msgid "WP Live TV is a Plugin for WordPress to create a Worldwide TV Station Channel Directory Website. You Can Add and Play Unlimited Live TV Video Stream Link Such as: Youtube, Dailymotion, Vimeo, Souncloud or Self Hosted Videos."
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:134
+msgid ""
+"Podcast Box is all in one solution that provides you an easy way to show and play your podcast episodes.\n"
+"You can also make a worldwide podcasts directory website of 5000+ podcasts included from 70+ countries."
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:153
+msgid ""
+"Hide any element on any page with a simple click without any coding.\n"
+"The user won’t see the hidden elements when they will browse the site."
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:162
+msgid "Try out our recommended plugins"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:163
+msgid "Hide From Menu"
+msgstr ""
+
+#. translators: %s: Plugin author.
+#: includes/admin/views/recommended-plugins.php:209
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: Plugin name and version.
+#: includes/admin/views/recommended-plugins.php:233
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:235
+msgid "Install Now"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:240
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr ""
+
+#. translators: %s: Plugin name and version.
+#: includes/admin/views/recommended-plugins.php:255
+msgctxt "plugin"
+msgid "Update %s now"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:257
+msgid "Update Now"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:262
+msgctxt "plugin"
+msgid "Cannot Update"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:273
+msgctxt "plugin"
+msgid "Active"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:276
+msgid "Activate"
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: includes/admin/views/recommended-plugins.php:278
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:289
+msgid "Network Activate"
+msgstr ""
+
+#. translators: %s: Plugin name.
+#: includes/admin/views/recommended-plugins.php:291
+msgctxt "plugin"
+msgid "Network Activate %s"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:304
+msgctxt "plugin"
+msgid "Installed"
+msgstr ""
+
+#. translators: %s: Plugin name and version.
+#: includes/admin/views/recommended-plugins.php:320
+msgid "More information about %s"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:322
+msgid "More Details"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:352
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr ""
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: includes/admin/views/recommended-plugins.php:356
+msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
+msgstr ""
+
+#. translators: %s: URL to WordPress Updates screen.
+#: includes/admin/views/recommended-plugins.php:364
+#: includes/admin/views/recommended-plugins.php:380
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr ""
+
+#. translators: %s: URL to Update PHP page.
+#: includes/admin/views/recommended-plugins.php:370
+#: includes/admin/views/recommended-plugins.php:389
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:376
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:385
+msgid "This plugin doesn&#8217;t work with your version of PHP."
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:433
+msgid "Last Updated:"
+msgstr ""
+
+#. translators: %s: Human-readable time difference.
+#: includes/admin/views/recommended-plugins.php:436
+msgid "%s ago"
+msgstr ""
+
+#. translators: %s: Number of millions.
+#: includes/admin/views/recommended-plugins.php:445
+msgctxt "Active plugin installations"
+msgid "%s+ Million"
+msgid_plural "%s+ Million"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/views/recommended-plugins.php:449
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr ""
+
+#. translators: %s: Number of installations.
+#: includes/admin/views/recommended-plugins.php:454
+msgid "%s Active Installations"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:460
+msgid "Untested with your version of WordPress"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:462
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:464
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:474
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/admin/views/recommended-plugins.php:475
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr ""
+
+#: includes/class-ajax.php:71
+msgid "No station found."
+msgstr ""
+
+#: includes/class-cpt.php:36
+msgid "Radio Stations"
+msgstr ""
+
+#: includes/class-cpt.php:36
+msgid "Station"
+msgstr ""
+
+#: includes/class-cpt.php:36
+msgid "Stations"
+msgstr ""
+
+#: includes/class-cpt.php:68
+msgid "Countries"
+msgstr ""
+
+#: includes/class-cpt.php:77
+msgid "Genres"
+msgstr ""
+
+#: includes/class-cpt.php:99
+#: includes/class-cpt.php:132
+msgid "All %s"
+msgstr ""
+
+#: includes/class-cpt.php:101
+#: includes/class-cpt.php:102
+#: includes/class-cpt.php:137
+msgid "Add New %s"
+msgstr ""
+
+#: includes/class-cpt.php:103
+#: includes/class-cpt.php:135
+msgid "Edit %s"
+msgstr ""
+
+#: includes/class-cpt.php:104
+msgid "New %s"
+msgstr ""
+
+#: includes/class-cpt.php:105
+msgid "View %s"
+msgstr ""
+
+#: includes/class-cpt.php:106
+#: includes/class-cpt.php:131
+msgid "Search %s"
+msgstr ""
+
+#: includes/class-cpt.php:107
+msgid "No %s found"
+msgstr ""
+
+#: includes/class-cpt.php:108
+msgid "No %s found in Trash"
+msgstr ""
+
+#: includes/class-cpt.php:109
+#: includes/class-cpt.php:134
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/class-cpt.php:129
+msgctxt "taxonomy general name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:130
+msgctxt "taxonomy singular name"
+msgid "%s"
+msgstr ""
+
+#: includes/class-cpt.php:133
+msgid "Parent %s"
+msgstr ""
+
+#: includes/class-cpt.php:136
+msgid "Update %s"
+msgstr ""
+
+#: includes/class-cpt.php:138
+msgid "New %s Name"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:46
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:115
+msgid "Radio stations play statistics of last "
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:115
+msgid " %s day"
+msgid_plural " %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-hooks.php:174
+msgid "View Station"
+msgstr ""
+
+#: includes/class-install.php:47
+msgid "Live Radio"
+msgstr ""
+
+#: includes/class-shortcode.php:34
+#: includes/class-shortcode.php:73
+msgid "No station found for id (%s)!"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:29
+msgid "Statistics of WP Radio"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:29
+msgid "Statistics"
+msgstr ""
+
+#: includes/elementor/class-elementor-country-list.php:15
+msgid "Country List"
+msgstr ""
+
+#: includes/elementor/class-elementor-country-list.php:34
+msgid "Radio Country List"
+msgstr ""
+
+#: includes/elementor/class-elementor-country-list.php:40
+msgid "List Style : "
+msgstr ""
+
+#: includes/elementor/class-elementor-country-list.php:44
+msgid "List"
+msgstr ""
+
+#: includes/elementor/class-elementor-country-list.php:48
+msgid "Grid"
+msgstr ""
+
+#: includes/elementor/class-elementor-country-list.php:59
+msgid "Grid Columns"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:15
+#: includes/elementor/class-elementor-player-widget.php:41
+#: block/build/index.js:1138
+#: block/build/index.js:1155
+msgid "Radio Player"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:34
+msgid "WP Radio Player"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:47
+msgid "Station ID : "
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:55
+msgid "Prev/ Next Buttons : "
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:58
+#: includes/elementor/class-elementor-station-search.php:43
+#: includes/elementor/class-elementor-station-search.php:54
+#: includes/elementor/class-elementor-station-widget.php:50
+#: includes/elementor/class-elementor-station-widget.php:60
+msgid "Show"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:59
+#: includes/elementor/class-elementor-station-search.php:44
+#: includes/elementor/class-elementor-station-search.php:55
+#: includes/elementor/class-elementor-station-widget.php:51
+#: includes/elementor/class-elementor-station-widget.php:61
+msgid "Hide"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:65
+msgid "Alignment : "
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:69
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:73
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:77
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/class-elementor-player-widget.php:95
+msgid "Please, enter a station ID"
+msgstr ""
+
+#: includes/elementor/class-elementor-station-search.php:15
+#: includes/elementor/class-elementor-station-search.php:34
+msgid "Station Search"
+msgstr ""
+
+#: includes/elementor/class-elementor-station-search.php:40
+msgid "Show country filter : "
+msgstr ""
+
+#: includes/elementor/class-elementor-station-search.php:51
+msgid "Show genre filter : "
+msgstr ""
+
+#: includes/elementor/class-elementor-station-widget.php:15
+#: includes/elementor/class-elementor-station-widget.php:34
+#: block/build/index.js:1505
+#: block/build/index.js:1522
+msgid "Radio Station"
+msgstr ""
+
+#: includes/elementor/class-elementor-station-widget.php:40
+#: block/build/index.js:1090
+#: block/build/index.js:1140
+#: block/build/index.js:1462
+#: block/build/index.js:1507
+msgid "Station ID"
+msgstr ""
+
+#: includes/elementor/class-elementor-station-widget.php:47
+msgid "Show Description : "
+msgstr ""
+
+#: includes/elementor/class-elementor-station-widget.php:57
+msgid "Show Genres : "
+msgstr ""
+
+#: includes/elementor/class-elementor-station-widget.php:75
+msgid "Please, enter a station id."
+msgstr ""
+
+#: includes/template-functions.php:256
+msgid " - Radio Stations"
+msgstr ""
+
+#: templates/listing/footer.php:27
+msgid "Go to page : "
+msgstr ""
+
+#: templates/listing/footer.php:31
+msgid "Go"
+msgstr ""
+
+#: templates/listing/genres.php:12
+msgid "Genres : "
+msgstr ""
+
+#: templates/listing/header.php:11
+msgid "A -Z"
+msgstr ""
+
+#: templates/listing/header.php:12
+msgid "Z -A"
+msgstr ""
+
+#: templates/listing/header.php:13
+msgid "Newest"
+msgstr ""
+
+#: templates/listing/header.php:14
+msgid "Oldest"
+msgstr ""
+
+#: templates/listing/header.php:25
+msgid "Showing %s - %s of %s stations"
+msgstr ""
+
+#: templates/listing/header.php:27
+msgid "No stations found"
+msgstr ""
+
+#: templates/listing/header.php:33
+msgid "Show : "
+msgstr ""
+
+#: templates/listing/header.php:38
+msgid "Items per page"
+msgstr ""
+
+#: templates/listing/header.php:47
+msgid "Sort : "
+msgstr ""
+
+#: templates/listing/search.php:34
+msgid "Search stations"
+msgstr ""
+
+#: templates/listing/search.php:41
+msgid "Enter search keyword"
+msgstr ""
+
+#: templates/listing/search.php:63
+msgid "Select genre"
+msgstr ""
+
+#: templates/listing/search.php:76
+msgid "Search"
+msgstr ""
+
+#: templates/no-station.php:2
+msgid "No Station Found."
+msgstr ""
+
+#: templates/player.php:74
+#: templates/single.php:65
+msgid "OFFLINE"
+msgstr ""
+
+#: templates/player.php:75
+#: templates/single.php:66
+msgid "LIVE"
+msgstr ""
+
+#: templates/player.php:94
+#: templates/player.php:95
+msgid "Play Previous"
+msgstr ""
+
+#: templates/player.php:104
+#: templates/player.php:105
+msgid "Play/Pause"
+msgstr ""
+
+#: templates/player.php:136
+#: templates/player.php:137
+msgid "Play Next"
+msgstr ""
+
+#: templates/player.php:146
+#: templates/player.php:147
+msgid "Open popup player"
+msgstr ""
+
+#: templates/playlist__premium_only.php:58
+#: templates/single/playlist.php:7
+msgid "Playlist"
+msgstr ""
+
+#: templates/sidebar.php:16
+msgid "Radio Countries"
+msgstr ""
+
+#: templates/sidebar.php:22
+msgid "Search country"
+msgstr ""
+
+#: templates/sidebar.php:45
+msgid "No country added yet."
+msgstr ""
+
+#: templates/single.php:161
+msgid "You also may like"
+msgstr ""
+
+#: templates/statistics-email-report.php:15
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/statistics-email-report.php:32
+msgid "Total plays per day"
+msgstr ""
+
+#: templates/statistics-email-report.php:45
+#: templates/statistics-email-report.php:84
+msgid "Total Play"
+msgstr ""
+
+#: templates/statistics-email-report.php:71
+msgid "Most Played Stations"
+msgstr ""
+
+#: templates/statistics-email-report.php:81
+msgid "Station Name"
+msgstr ""
+
+#: templates/statistics-email-report.php:117
+msgid "This email has been generated from WP RADIO at"
+msgstr ""
+
+#: wp-radio.php:17
+msgid "You can't access this page"
+msgstr ""
+
+#: block/build/index.js:756
+msgid "Loading Radio Country List..."
+msgstr ""
+
+#: block/build/index.js:1086
+msgid "Player Settings"
+msgstr ""
+
+#: block/build/index.js:1459
+msgid "Station Settings"
+msgstr ""
+
+#: block/build/index.js:1469
+msgid "Enter the station ID that you want to display."
+msgstr ""
+
+#: block/build/index.js:1475
+msgid "Update station"
+msgstr ""
+
+#: block/build/index.js:1477
+msgid "Show description:"
+msgstr ""
+
+#: block/build/index.js:1486
+msgid "Show/ hide the station description."
+msgstr ""
+
+#: block/build/index.js:1488
+msgid "Show genres:"
+msgstr ""
+
+#: block/build/index.js:1497
+msgid "Show/ hide the station genres."
+msgstr ""
+
+#: block/build/index.js:1837
+msgid "Loading search form..."
+msgstr ""
+
+#: block.json
+msgctxt "block title"
+msgid "Radio Player"
+msgstr ""
+
+#: block.json
+msgctxt "block description"
+msgid "Display the radio-player."
+msgstr ""
